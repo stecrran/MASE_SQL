@@ -57,7 +57,7 @@ END //
 #call update_rate_position("Head", 60, @update_count);
 #select @update_count;
 
-# this returns 1 for update_count. When executed, '4' flashes up but returns to '1'
+# this returns 1 for update_count. 
 call update_rate_position("Lecturer", 30, @update_count);
 #select count(*) from lab2.details where position = "Researcher";
 #select @update_count;
